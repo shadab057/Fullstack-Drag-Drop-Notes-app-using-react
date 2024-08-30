@@ -1,12 +1,12 @@
-
+import NotesPage from "./pages/NotesPage"
 
 function App() {
 
 
   return (
-    <>
-      MyApp
-    </>
+    <div id="app">
+      <NotesPage />
+    </div>
   )
 }
 
